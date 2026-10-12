@@ -1,5 +1,5 @@
 import { portfolioData } from '../data/portfolioData';
-import heroBg from '../assets/images/hero.jpg';
+import heroBg from '../assets/images/hero-arif.svg';
 import { FaEnvelope, FaLinkedinIn, FaGithub} from 'react-icons/fa';
 import { HiOutlineDocumentDownload } from 'react-icons/hi';
 
@@ -14,8 +14,8 @@ const Hero = () => {
 
       {/* Background Image with Overlay */}
       <div
-        className="absolute inset-0 bg-cover bg-center opacity-30 scale-105 transition-transform duration-700"
-        style={{ backgroundImage: `url(${heroBg})` }}
+        className="absolute inset-0 bg-cover bg-center opacity-30 transition-transform duration-300"
+        style={{ backgroundImage: `url(${heroBg})`}}
       />
 
 
