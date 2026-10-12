@@ -1,10 +1,10 @@
 export const portfolioData = {
   personalInfo: {
     name: "MD ARIF KHAN",
-    title: "Software Developer",
-    phone: "+447987654321",
-    email: "ethanjames@gmail.com",
-    location: "London, UK",
+    title: "Software Engineer",
+    phone: "+8801626760256",
+    email: "inbox.arifkhan@gmail.com",
+    location: "Dhaka,Bangladesh",
     github: "https://github.com",
     linkedin: "https://linkedin.com/in/ethanjames",
     whatsapp: "447987654321", // country code 
