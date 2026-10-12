@@ -14,7 +14,7 @@ const Hero = () => {
 
       {/* Background Image with Overlay */}
       <div
-        className="absolute inset-0 bg-cover bg-center opacity-30 transition-transform duration-300"
+        className="absolute inset-0 bg-cover bg-center opacity-40 transition-transform duration-300"
         style={{ backgroundImage: `url(${heroBg})`}}
       />
 
@@ -81,7 +81,7 @@ const Hero = () => {
           <a
             href={personalInfo.resumePdf}
             download={`${personalInfo.name.replace(/\s+/g, '_')}_Resume.pdf`}
-            className="inline-flex items-center gap-1 bg-[#00A1E0] hover:bg-[#00A1E0]/20 text-white font-semibold px-4 py-2 rounded-none shadow-md hover:shadow-lg transition-all duration-400 active:scale-95"
+            className="inline-flex items-center gap-1 bg-[#00A1E0] hover:bg-[#0176D3] text-white font-semibold px-4 py-2 rounded-none shadow-md hover:shadow-lg transition-all duration-400 active:scale-95"
           >
             Resume
             <HiOutlineDocumentDownload size={18} />
