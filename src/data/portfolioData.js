@@ -25,6 +25,19 @@ export const portfolioData = {
         "Contributed to the development and launch of multiple software applications, enhancing functionality and user engagement.",
         "Played a significant role in the successful rollout of various software projects, ensuring quality and timely delivery."
       ]
+    },
+
+
+    {
+      company: "Betopia Group",
+      role: "Executive Mobile App",
+      duration: "August 2025 - August 2026",
+      location: "Mohakhali C/A, Dhaka",
+      companyUrl: "https://example.com", // company link
+      bullets: [
+        "Contributed to the development and launch of multiple software applications, enhancing functionality and user engagement.",
+        "Played a significant role in the successful rollout of various software projects, ensuring quality and timely delivery."
+      ]
     }
   ],
 
