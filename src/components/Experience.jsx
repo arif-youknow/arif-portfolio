@@ -11,7 +11,7 @@ const Experience = () => {
 
   return (
     <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 ">
-      <h2 className="text-sm font-bold border-b border-slate-200 pb-2 uppercase tracking-wider text-slate-500 mb-6">
+      <h2 className="text-base font-bold border-b border-slate-200 pb-2 uppercase tracking-wider text-slate-500 mb-6">
         Professional Experience
       </h2>
 
@@ -22,7 +22,7 @@ const Experience = () => {
 
             {/* Designation & Duration */}
             <div className="flex items-baseline justify-between gap-4">
-              <h3 className="text-base sm:text-lg font-semibold text-slate-900">
+              <h3 className="text-base sm:text-base font-semibold text-slate-900">
                 {exp.role}
               </h3>
 
@@ -34,7 +34,7 @@ const Experience = () => {
             {/* Company & Location */}
             <div className="flex items-center justify-between gap-4">
               <div className="flex items-center gap-2 min-w-0 text-sm font-medium">
-                <FaBriefcase className="text-slate-500 shrink-0" />
+                <FaBriefcase className="text-slate-700 shrink-0" />
 
                 {exp.companyUrl ? (
                   <a
