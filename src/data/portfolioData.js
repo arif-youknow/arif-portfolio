@@ -7,7 +7,7 @@ export const portfolioData = {
     location: "Dhaka,Bangladesh",
     github: "https://github.com",
     linkedin: "https://linkedin.com/in/ethanjames",
-    whatsapp: "447987654321", // country code 
+    whatsapp: "+8801626760256", // country code 
     resumePdf: "/resume.pdf", // public/resume.pdf 
   },
   
