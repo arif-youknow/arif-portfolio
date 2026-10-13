@@ -1,6 +1,6 @@
 import { portfolioData } from '../data/portfolioData';
 import heroBg from '../assets/images/hero-arif.svg';
-import { FaEnvelope, FaLinkedinIn, FaGithub} from 'react-icons/fa';
+import { FaEnvelope, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { HiOutlineDocumentDownload } from 'react-icons/hi';
 
 const Hero = () => {
@@ -15,7 +15,7 @@ const Hero = () => {
       {/* Background Image with Overlay */}
       <div
         className="absolute inset-0 bg-cover bg-center opacity-40 transition-transform duration-300"
-        style={{ backgroundImage: `url(${heroBg})`}}
+        style={{ backgroundImage: `url(${heroBg})` }}
       />
 
 
@@ -47,6 +47,19 @@ const Hero = () => {
             </a>
           )}
 
+
+
+          {personalInfo.email && (
+            <a
+              href={`mailto:${personalInfo.email}`}
+              aria-label="Email"
+              title={personalInfo.email}
+              className="flex items-center justify-center w-10 h-10 rounded-full text-gray-500 hover:bg-[#00A1E0] transition-all duration-400 bg-black/20"
+            >
+              <FaEnvelope size={20} />
+            </a>
+          )}
+
           {personalInfo.github && (
             <a
               href={personalInfo.github}
@@ -61,16 +74,7 @@ const Hero = () => {
           )}
 
 
-               {personalInfo.email && (
-            <a
-              href={`mailto:${personalInfo.email}`}
-              aria-label="Email"
-              title={personalInfo.email}
-              className="flex items-center justify-center w-10 h-10 rounded-full text-gray-500 hover:bg-[#00A1E0] transition-all duration-400 bg-black/20"
-            >
-              <FaEnvelope size={20} />
-            </a>
-          )}
+
 
         </div>
 

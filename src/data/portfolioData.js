@@ -20,7 +20,7 @@ export const portfolioData = {
       role: "Enterprise Solutions Trainee",
       duration: "September 2026 - Present",
       location: "Baridhara,Dhaka",
-      companyUrl: "https://example.com", // company link
+      companyUrl: "https://bjitgroup.com/", // company link
       bullets: [
         "Contributed to the development and launch of multiple software applications, enhancing functionality and user engagement.",
         "Played a significant role in the successful rollout of various software projects, ensuring quality and timely delivery."
@@ -32,8 +32,8 @@ export const portfolioData = {
       company: "Betopia Group",
       role: "Executive Mobile App",
       duration: "August 2025 - August 2026",
-      location: "Mohakhali C/A, Dhaka",
-      companyUrl: "https://example.com", // company link
+      location: "Gulshan, Dhaka",
+      companyUrl: "https://betopiagroup.com/", // company link
       bullets: [
         "Contributed to the development and launch of multiple software applications, enhancing functionality and user engagement.",
         "Played a significant role in the successful rollout of various software projects, ensuring quality and timely delivery."
@@ -59,14 +59,12 @@ export const portfolioData = {
 
   education: [
     {
-      degree: "Bachelor of Design",
-      institution: "Birmingham University, UK",
-      duration: "2017 - 2020"
-    },
-    {
-      degree: "BSc in Computer Science",
-      institution: "St. Joseph's College, Bangalore, India",
-      duration: "2017 - 2020"
+      degree: "B.Sc. in Computer Science and Engineering (CSE)",
+      institution: "University of Information Technology and Sciences (UITS)",
+      duration: "2017 - 2020",
+      passingYear: "2025",
+      location: "Dhaka,Bangladesh",
+      institutionUrl: "https://uits.ac.bd/",
     }
   ],
 

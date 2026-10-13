@@ -1,11 +1,16 @@
 import { portfolioData } from '../data/portfolioData';
+import { SiGmail, SiWhatsapp } from 'react-icons/si';
+import gmailLogo from '../assets/images/gmail.svg';
 
 const Contact = () => {
   const { personalInfo } = portfolioData;
 
   return (
     <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-      <div className="bg-slate-100 rounded-xl p-6 sm:p-8 text-center border border-slate-200 shadow-sm">
+
+      <div className="bg-[#00A1E0]/10 p-6 sm:p-8 text-center border border-[#00A1E0]/20">
+
+
         <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-2">
           Let's Work Together
         </h2>
@@ -19,9 +24,10 @@ const Contact = () => {
           {personalInfo.email && (
             <a
               href={`mailto:${personalInfo.email}`}
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-slate-900 hover:bg-slate-800 text-white font-medium px-6 py-3 rounded-lg transition-all duration-200 active:scale-95 shadow-sm text-sm"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white hover:bg-[#00A1E0]/30 text-white font-medium px-4 py-3 transition-all duration-200 active:scale-95 shadow-sm text-sm"
             >
-              ✉️ Send Mail
+              <img src={gmailLogo} alt="Gmail" className="w-7 h-7" />
+              Send Mail
             </a>
           )}
 
@@ -31,9 +37,10 @@ const Contact = () => {
               href={`https://wa.me/${personalInfo.whatsapp}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-medium px-6 py-3 rounded-lg transition-all duration-200 active:scale-95 shadow-sm text-sm"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white hover:bg-[#00A1E0]/30 text-white font-medium px-4 py-3 transition-all duration-200 active:scale-95 shadow-sm text-sm"
             >
-              💬 WhatsApp
+              <SiWhatsapp size={28} color="#25D366" />
+              WhatsApp
             </a>
           )}
         </div>
