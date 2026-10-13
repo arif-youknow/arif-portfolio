@@ -16,10 +16,10 @@ export const portfolioData = {
 
   experience: [
     {
-      company: "Tech Innovations Ltd.",
-      role: "Software Developer",
-      duration: "June 2020 - Present",
-      location: "London, UK",
+      company: "BJIT",
+      role: "Enterprise Solutions Trainee",
+      duration: "September 2026 - Present",
+      location: "Baridhara,Dhaka",
       companyUrl: "https://example.com", // company link
       bullets: [
         "Contributed to the development and launch of multiple software applications, enhancing functionality and user engagement.",
