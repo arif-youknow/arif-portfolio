@@ -8,7 +8,7 @@ const Skills = () => {
       {/* Core Skills */}
       {coreSkills && coreSkills.length > 0 && (
         <div className="mb-6">
-          <h2 className="text-base font-bold uppercase tracking-wider text-slate-500 mb-3 border-b border-slate-200 pb-2">
+          <h2 className="text-base font-bold uppercase tracking-wider text-slate-500 mb-3 border-b border-[#00A1E0]/20 pb-2">
             Core Skills
           </h2>
           <p className="text-sm sm:text-base text-slate-800 font-medium leading-relaxed">
@@ -20,7 +20,7 @@ const Skills = () => {
       {/* Additional Skills */}
       {additionalSkills && additionalSkills.length > 0 && (
         <div>
-          <h2 className="text-base font-bold uppercase tracking-wider text-slate-500 mb-3 border-b border-slate-200 pb-2">
+          <h2 className="text-base font-bold uppercase tracking-wider text-slate-500 mb-3 border-b border-[#00A1E0]/20 pb-2">
             Additional Skills
           </h2>
           <p className="text-sm sm:text-base text-slate-700 font-normal leading-relaxed">

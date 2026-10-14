@@ -6,8 +6,8 @@ const Projects = () => {
   if (!projects || projects.length === 0) return null;
 
   return (
-    <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 border-b border-slate-200">
-      <h2 className="text-base font-bold uppercase tracking-wider text-slate-500 mb-6">
+    <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 ">
+      <h2 className="text-base font-bold uppercase tracking-wider text-slate-500 mb-6 border-b border-[#00A1E0]/20 pb-2">
         Projects
       </h2>
 

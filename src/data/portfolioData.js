@@ -5,8 +5,8 @@ export const portfolioData = {
     phone: "+8801626760256",
     email: "inbox.arifkhan@gmail.com",
     location: "Dhaka,Bangladesh",
-    github: "https://github.com",
-    linkedin: "https://linkedin.com/in/ethanjames",
+    github: "https://github.com/arif-youknow",
+    linkedin: "https://www.linkedin.com/in/arif-youknow",
     whatsapp: "+8801626760256", // country code 
     resumePdf: "/resume.pdf", // public/resume.pdf 
   },
