@@ -1,31 +1,47 @@
 import { portfolioData } from '../data/portfolioData';
 
 const Skills = () => {
-  const { coreSkills, additionalSkills } = portfolioData;
+  const { technicalSkills, projectManagement } = portfolioData;
 
   return (
     <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      {/* Core Skills */}
-      {coreSkills && coreSkills.length > 0 && (
+      {/* Technical Skills */}
+      {technicalSkills && technicalSkills.length > 0 && (
         <div className="mb-6">
           <h2 className="text-base font-bold uppercase tracking-wider text-slate-500 mb-3 border-b border-slate-200 pb-2">
-            Core Skills
+            Technical Skills
           </h2>
-          <p className="text-sm sm:text-base text-slate-800 font-medium leading-relaxed">
-            {coreSkills.join('  •  ')}
-          </p>
+
+          <div className="flex flex-wrap gap-2">
+            {technicalSkills.map((skill, index) => (
+              <span
+                key={`${skill}-${index}`}
+                className="inline-flex items-center border border-slate-300 rounded-md px-3 py-1.5 text-sm text-slate-700 font-medium bg-transparent transition-colors duration-200 hover:border-[#0176D3] hover:text-[#0176D3]"
+              >
+                {skill}
+              </span>
+            ))}
+          </div>
         </div>
       )}
 
-      {/* Additional Skills */}
-      {additionalSkills && additionalSkills.length > 0 && (
+      {/* Project Management Skills */}
+      {projectManagement && projectManagement.length > 0 && (
         <div>
           <h2 className="text-base font-bold uppercase tracking-wider text-slate-500 mb-3 border-b border-slate-200 pb-2">
-            Additional Skills
+            Project Management
           </h2>
-          <p className="text-sm sm:text-base text-slate-700 font-normal leading-relaxed">
-            {additionalSkills.join('  •  ')}
-          </p>
+
+          <div className="flex flex-wrap gap-2">
+            {projectManagement.map((skill, index) => (
+              <span
+                key={`${skill}-${index}`}
+                className="inline-flex items-center border border-slate-300 rounded-md px-3 py-1.5 text-sm text-slate-700 font-medium bg-transparent transition-colors duration-200 hover:border-[#0176D3] hover:text-[#0176D3]"
+              >
+                {skill}
+              </span>
+            ))}
+          </div>
         </div>
       )}
     </section>
