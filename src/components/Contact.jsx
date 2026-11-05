@@ -1,5 +1,5 @@
 import { portfolioData } from '../data/portfolioData';
-import { SiGmail, SiWhatsapp } from 'react-icons/si';
+import { SiWhatsapp } from 'react-icons/si';
 import gmailLogo from '../assets/images/gmail.svg';
 
 const Contact = () => {
@@ -24,9 +24,9 @@ const Contact = () => {
           {personalInfo.email && (
             <a
               href={`mailto:${personalInfo.email}`}
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white hover:bg-[#00A1E0]/30 text-white font-medium px-4 py-3 transition-all duration-200 active:scale-95 shadow-sm text-sm"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white hover:bg-[#00A1E0]/30 text-white font-medium px-3 py-3 transition-all duration-200 active:scale-95 shadow-sm text-sm"
             >
-              <img src={gmailLogo} alt="Gmail" className="w-7 h-7" />
+              <img src={gmailLogo} alt="Gmail" className="w-5 h-5" />
               Send Mail
             </a>
           )}
@@ -37,9 +37,9 @@ const Contact = () => {
               href={`https://wa.me/${personalInfo.whatsapp}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white hover:bg-[#00A1E0]/30 text-white font-medium px-4 py-3 transition-all duration-200 active:scale-95 shadow-sm text-sm"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white hover:bg-[#00A1E0]/30 text-white font-medium px-3 py-3 transition-all duration-200 active:scale-95 shadow-sm text-sm"
             >
-              <SiWhatsapp size={28} color="#25D366" />
+              <SiWhatsapp size={20} color="#25D366" />
               WhatsApp
             </a>
           )}

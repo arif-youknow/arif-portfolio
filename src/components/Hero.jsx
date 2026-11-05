@@ -80,17 +80,21 @@ const Hero = () => {
 
 
 
-        {/* Action Button: Download CV */}
+        {/* Download Resume */}
         <div className="mt-6 flex justify-center sm:justify-start">
           <a
             href={personalInfo.resumePdf}
-            download={`${personalInfo.name.replace(/\s+/g, '_')}_Resume.pdf`}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-1 bg-[#00A1E0] hover:bg-[#0176D3] text-white font-semibold px-4 py-2 rounded-none shadow-md hover:shadow-lg transition-all duration-400 active:scale-95"
           >
             Resume
             <HiOutlineDocumentDownload size={18} />
           </a>
         </div>
+
+
+
       </div>
     </header>
   );

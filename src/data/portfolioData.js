@@ -1,3 +1,6 @@
+import betopiaLogo from "../assets/images/betopia-limited.png";
+import uitsLogo from "../assets/images/uits.png";
+
 export const portfolioData = {
   personalInfo: {
     name: "MD ARIF KHAN",
@@ -7,8 +10,9 @@ export const portfolioData = {
     location: "Dhaka,Bangladesh",
     github: "https://github.com/arif-youknow",
     linkedin: "https://www.linkedin.com/in/arif-youknow/",
-    whatsapp: "+8801626760256", // country code 
-    resumePdf: "/resume.pdf", // public/resume.pdf 
+    whatsapp: "+8801626760256",
+    resumePdf:
+      "https://www.dropbox.com/scl/fi/1xitssanm782ojt34303m/md-arif-khan.pdf?rlkey=rlzi86e1hxlroiy49zm7kb3h5&st=xbdobszr&dl=1", // public/resume.pdf
   },
 
   myStory: `
@@ -35,10 +39,9 @@ Today, I feel much more confident than when I first started. I know there is sti
       bullets: [
         "Gained hands on experience in enterprise solution development, focusing on business process automation, system configuration, and application development.",
         "Applied requirement analysis, data modeling, software engineering principles to implement business solutions.",
-        "Learned project management practices, including task planning, and issue management using Jira and Redmine."
-      ]
+        "Learned project management practices, including task planning, and issue management using Jira and Redmine.",
+      ],
     },
-
 
     {
       company: "Betopia Group",
@@ -47,27 +50,29 @@ Today, I feel much more confident than when I first started. I know there is sti
       durationYear: "2025 - 2026",
       location: "Gulshan,Dhaka",
       companyUrl: "https://betopiagroup.com/",
-      companyLogo: "https://s3.zenex.cloud/nasir-uddin/betopia_group_defaults/site-assets/BetopiaBlackLogo.svg",
+      companyLogo: betopiaLogo,
       bullets: [
         "Take ownership of end to end feature development from requirement analysis.",
         "Collaborate with cross functional teams and stakeholders to ensure timely project delivery and product quality.",
-        "implement scalable application architecture following Clean Architecture principles"
-      ]
-    }
+        "implement scalable application architecture following Clean Architecture principles",
+      ],
+    },
   ],
 
   technicalSkills: [
-    "Software Development",
-    "Debugging and Testing",
-    "Web Development",
-    "API Integration",
-    "Version Control (Git)"
+    "OOP",
+    "JavaScript",
+    "APEX",
+    "ABAP",
+    "SOQL",
+    "SQL",
+    "Version Control (Git)",
+    "Docker",
   ],
 
-  projectManagement: [
-    "Jira",
-    "Redmine",
-  ],
+  software: ["Salesforce", "SAP", "Microsoft Excel"],
+
+  projectManagement: ["Jira", "Redmine"],
 
   education: [
     {
@@ -76,8 +81,56 @@ Today, I feel much more confident than when I first started. I know there is sti
       duration: "2017 - 2020",
       passingYear: "2025",
       location: "Dhaka,Bangladesh",
+      uitsLogo: uitsLogo,
       institutionUrl: "https://uits.ac.bd/",
-    }
+    },
+  ],
+
+  academicThesis: [
+    {
+      title: "AI Fitness Tracking Application",
+      description: "Your thesis description goes here.",
+
+      // Dropbox PDF preview link
+      pdfUrl: "",
+
+      // Dropbox cover image direct link
+      coverImage: "",
+    },
+  ],
+
+  certificates: [
+    {
+      id: "certificate-1",
+      title: "Certificate Name 1",
+      imageUrl: "",
+      certificateUrl: "",
+    },
+    {
+      id: "certificate-2",
+      title: "Certificate Name 2",
+      imageUrl: "",
+      certificateUrl: "",
+    },
+    {
+      id: "certificate-3",
+      title: "Certificate Name 3",
+      imageUrl: "",
+      certificateUrl: "",
+    },
+    {
+      id: "certificate-3",
+      title: "Certificate Name 3",
+      imageUrl: "",
+      certificateUrl: "",
+    },
+
+    {
+      id: "certificate-3",
+      title: "Certificate Name 3",
+      imageUrl: "",
+      certificateUrl: "",
+    },
   ],
 
   projects: [
@@ -85,13 +138,13 @@ Today, I feel much more confident than when I first started. I know there is sti
       title: "AI Fitness Tracking Application",
       link: "https://portfolio.aidan.com/aift",
       description:
-        "Birmingham University, situated in the vibrant city of Birmingham, UK, provides a dynamic learning atmosphere with a rich heritage and contemporary facilities."
+        "Birmingham University, situated in the vibrant city of Birmingham, UK, provides a dynamic learning atmosphere with a rich heritage and contemporary facilities.",
     },
     {
       title: "Legal review system - Design system",
       link: "https://portfolio.aidan.com/lgpsy",
       description:
-        "Birmingham University, located in the lively city of Birmingham, UK, offers a stimulating learning environment with a rich history and modern amenities."
-    }
-  ]
+        "Birmingham University, located in the lively city of Birmingham, UK, offers a stimulating learning environment with a rich history and modern amenities.",
+    },
+  ],
 };

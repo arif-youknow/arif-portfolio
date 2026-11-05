@@ -16,7 +16,7 @@ const Experience = () => {
       </h2>
 
       {/* Experience list */}
-      <div className="space-y-8">
+      <div className="space-y-6">
         {experience.map((exp, index) => (
           <div
             key={index}
@@ -31,7 +31,7 @@ const Experience = () => {
             </div>
 
             {/* Right column: Experience details */}
-            <div className="min-w-0 border-l-2 border-slate-400 pl-3 sm:pl-5">
+            <div className="min-w-0 border-l-2 border-[#00A1E0]/20 pl-3 sm:pl-5">
 
               {/* Job title */}
               <h3 className="text-base font-semibold text-slate-900">
@@ -100,7 +100,7 @@ const Experience = () => {
 
               {/* Experience bullet points */}
               {exp.bullets?.length > 0 && (
-                <ul className="list-disc list-outside pl-5 mt-4 space-y-1.5 text-sm sm:text-base text-slate-700">
+                <ul className="list-disc list-outside pl-5 mt-4 space-y-1 text-sm sm:text-base text-slate-700">
                   {exp.bullets.map((bullet, bulletIndex) => (
                     <li
                       key={bulletIndex}
