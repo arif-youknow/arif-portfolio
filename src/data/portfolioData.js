@@ -11,7 +11,7 @@ export const portfolioData = {
     resumePdf: "/resume.pdf", // public/resume.pdf 
   },
   
-  overview:
+  myStory:
     "I am a skilled Software Developer with three years of experience in creating efficient and scalable applications. I have collaborated with startups and established firms to develop software solutions that enhance user experience and drive operational success.",
 
   experience: [
@@ -22,8 +22,9 @@ export const portfolioData = {
       location: "Baridhara,Dhaka",
       companyUrl: "https://bjitgroup.com/", // company link
       bullets: [
-        "Contributed to the development and launch of multiple software applications, enhancing functionality and user engagement.",
-        "Played a significant role in the successful rollout of various software projects, ensuring quality and timely delivery."
+        "Gained hands on experience in enterprise solution development, focusing on business process automation, system configuration, and application development.",
+        "Applied requirement analysis, data modeling, software engineering principles to implement business solutions.",
+        "Learned project management practices, including task planning, and issue management using Jira and Redmine."
       ]
     },
 
@@ -35,13 +36,14 @@ export const portfolioData = {
       location: "Gulshan, Dhaka",
       companyUrl: "https://betopiagroup.com/", // company link
       bullets: [
-        "Contributed to the development and launch of multiple software applications, enhancing functionality and user engagement.",
-        "Played a significant role in the successful rollout of various software projects, ensuring quality and timely delivery."
+        "Take ownership of end to end feature development from requirement analysis.",
+        "Collaborate with cross functional teams and stakeholders to ensure timely project delivery and product quality.",
+        "implement scalable application architecture following Clean Architecture principles"
       ]
     }
   ],
 
-  coreSkills: [
+  technicalSkills: [
     "Software Development",
     "Debugging and Testing",
     "Web Development",
@@ -49,12 +51,9 @@ export const portfolioData = {
     "Version Control (Git)"
   ],
 
-  additionalSkills: [
-    "Visual Design",
-    "Information Architecture",
-    "Content Strategy",
-    "Collaboration",
-    "Project Management"
+  projectManagement: [
+    "Jira",
+    "Redmine",
   ],
 
   education: [

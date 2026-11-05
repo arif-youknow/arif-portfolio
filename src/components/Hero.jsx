@@ -8,7 +8,7 @@ const Hero = () => {
 
   return (
 
-    <header className="relative bg-linear-to-r from-[#032D60] via-[#0176D3] to-[#00A1E0] text-white min-h-95 flex items-center justify-center overflow-hidden py-12 px-4 sm:px-6 lg:px-8">
+    <header className="relative bg-linear-to-r from-[#032D60] via-[#0176D3] to-[#00A1E0] text-white min-h-[350px] md:min-h-[380px] lg:min-h-[510px] flex items-center justify-center overflow-hidden py-12 px-4 sm:px-6 lg:px-8">
 
 
 

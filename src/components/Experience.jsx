@@ -62,7 +62,7 @@ const Experience = () => {
 
             {/* Bullet Points */}
             {exp.bullets && exp.bullets.length > 0 && (
-              <ul className="list-disc list-outside pl-5 space-y-1.5 text-sm text-slate-700 pt-1">
+              <ul className="list-disc list-outside pl-5 space-y-1.5 text-md text-slate-700 pt-1">
                 {exp.bullets.map((bullet, idx) => (
                   <li key={idx} className="leading-relaxed">
                     {bullet}
