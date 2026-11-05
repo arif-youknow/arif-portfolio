@@ -10,7 +10,7 @@ const Experience = () => {
 
 
   return (
-    <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 ">
+    <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6 ">
       <h2 className="text-base font-bold border-b border-[#00A1E0]/20 pb-2 uppercase tracking-wider text-slate-500 mb-6">
         Professional Experience
       </h2>

@@ -6,7 +6,7 @@ const Contact = () => {
   const { personalInfo } = portfolioData;
 
   return (
-    <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
 
       <div className="bg-[#00A1E0]/10 p-6 sm:p-8 text-center border border-[#00A1E0]/20">
 
