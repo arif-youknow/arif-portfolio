@@ -4,7 +4,7 @@ const Skills = () => {
   const { technicalSkills, projectManagement } = portfolioData;
 
   return (
-    <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
       {/* Technical Skills */}
       {technicalSkills && technicalSkills.length > 0 && (
         <div className="mb-6">
