@@ -25,11 +25,13 @@ Today, I feel much more confident than when I first started. I know there is sti
 
   experience: [
     {
-      company: "BJIT",
+      company: "BJIT Group",
       role: "Enterprise Solutions Trainee",
       duration: "September 2026 - Present",
+      durationYear: "2026 - Present",
       location: "Baridhara,Dhaka",
-      companyUrl: "https://bjitgroup.com/", // company link
+      companyUrl: "https://bjitgroup.com/",
+      companyLogo: "https://bjitgroup.com/static/svg/common/bjit-logo2.svg",
       bullets: [
         "Gained hands on experience in enterprise solution development, focusing on business process automation, system configuration, and application development.",
         "Applied requirement analysis, data modeling, software engineering principles to implement business solutions.",
@@ -42,8 +44,10 @@ Today, I feel much more confident than when I first started. I know there is sti
       company: "Betopia Group",
       role: "Executive Mobile App",
       duration: "August 2025 - August 2026",
-      location: "Gulshan, Dhaka",
-      companyUrl: "https://betopiagroup.com/", // company link
+      durationYear: "2025 - 2026",
+      location: "Gulshan,Dhaka",
+      companyUrl: "https://betopiagroup.com/",
+      companyLogo: "https://s3.zenex.cloud/nasir-uddin/betopia_group_defaults/site-assets/BetopiaBlackLogo.svg",
       bullets: [
         "Take ownership of end to end feature development from requirement analysis.",
         "Collaborate with cross functional teams and stakeholders to ensure timely project delivery and product quality.",
