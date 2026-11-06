@@ -6,7 +6,6 @@ import Education from './components/Education';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Thesis from './components/Thesis';
-import Certificate from './components/Certificate';
 
 function App() {
   return (
@@ -22,7 +21,6 @@ function App() {
           <Education />
           <Skills />
           <Thesis />
-          <Certificate />
           <Contact />
         </main>
       </div>

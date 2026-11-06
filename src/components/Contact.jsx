@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
 
-      <div className="bg-[#00A1E0]/10 p-6 sm:p-8 text-center border border-[#00A1E0]/20">
+      <div className="bg-[#00A1E0]/20 p-6 sm:p-8 text-center border border-[#00A1E0]/20">
 
 
         <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-2">

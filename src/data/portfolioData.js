@@ -54,7 +54,7 @@ Today, I feel much more confident than when I first started. I know there is sti
       bullets: [
         "Take ownership of end to end feature development from requirement analysis.",
         "Collaborate with cross functional teams and stakeholders to ensure timely project delivery and product quality.",
-        "implement scalable application architecture following Clean Architecture principles",
+        "implement scalable application architecture following Clean Architecture principles.",
       ],
     },
   ],
@@ -86,18 +86,29 @@ Today, I feel much more confident than when I first started. I know there is sti
     },
   ],
 
+
+  //Academic Thesis
+
   academicThesis: [
     {
-      title: "AI Fitness Tracking Application",
-      description: "Your thesis description goes here.",
+      title: "Title: Intelligent Lost & Found Platform using Machine Learning for Automated Item Matching",
+
+
+
+      description: `Developed an intelligent Lost & Found platform that automates item matching using computer vision and natural language processing.
+      The system integrates DINOv2 and SIFT for visual feature extraction, BGE-Reranker for multilingual semantic text matching, and XGBoost for ensemble-based match prediction. Built with a FastAPI backend, the platform supports English, Bangla, and Romanized Bangla descriptions. The proposed model achieved **80.98% accuracy**, demonstrating its effectiveness in matching lost and found items.
+.`,
 
       // Dropbox PDF preview link
-      pdfUrl: "",
+      pdfUrl: "https://www.dropbox.com/scl/fi/uz2f8v5a7sy0ivnq141ql/Intelligent_Lost___Found_Platform_using_Machine_Learning_for_Automated_Item_Matching__Latest_.pdf?rlkey=wy0sbq5xsy7mtn5ca23ox3woy&st=f4uwjjeb&dl=0",
 
       // Dropbox cover image direct link
-      coverImage: "",
+      coverImage: "https://www.dropbox.com/scl/fi/r5s2x736c9v9zwp0tei03/thesis_cover.png?rlkey=dufnoovibr6asmyzhd0bx8hbn&raw=1",
     },
   ],
+
+
+  //Certifications
 
   certificates: [
     {
