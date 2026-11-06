@@ -21,11 +21,11 @@ const Hero = () => {
 
       {/* Hero Content */}
       <div className="relative z-10 max-w-4xl w-full text-center sm:text-left">
-        <h1 className="text-3xl sm:text-5xl font-semibold tracking-tight uppercase">
+        <h1 className="text-4xl sm:text-6xl font-semibold tracking-tight uppercase">
           {personalInfo.name}
         </h1>
 
-        <p className="text-base sm:text-lg text-slate-300 font-thin mt-1">
+        <p className="text-md sm:text-xl text-slate-300 font-thin mt-1">
           {personalInfo.title}
         </p>
 
